@@ -7,24 +7,6 @@ This project implements a PMOS-enabled Sense Amplifier SRAM System featuring an 
   3) Real-time Performance Monitoring - Built-in metrics
   4) 5-State FSM Control - Robust operation management
 
-🏗 Architecture
-System Block Diagram
-┌─────────────────────────────────────────────────┐
-│              PMOS SRAM SYSTEM                   │
-├─────────────────────────────────────────────────┤
-│  ┌─────────────┐  ┌─────────────┐  ┌──────────┐ │
-│  │   CONTROL   │  │   6T SRAM   │  │  SENSE   │ │
-│  │   FSM       │  │   CELL      │  │ AMPLIFIER│ │
-│  │             │  │             │  │ (PMOS)   │ │
-│  └─────────────┘  └─────────────┘  └──────────┘ │
-│          │               │               │      │
-│  ┌─────────────┐  ┌─────────────┐  ┌──────────┐ │
-│  │ PRECHARGE   │  │  BITLINE    │  │ VOLTAGE  │ │
-│  │ CIRCUIT     │  │  NETWORK    │  │ SENSING  │ │
-│  │             │  │             │  │  LOGIC   │ │
-│  └─────────────┘  └─────────────┘  └──────────┘ │
-└─────────────────────────────────────────────────┘
-
 🛠 Installation & Usage
 Prerequisites
   1) Xilinx Vivado 2025.1 or later
