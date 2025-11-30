@@ -1,0 +1,1 @@
+# Design-Characterization-of-Single-PMOS-Enabled-Sense-Amplifier-for-SRAM-Applications
